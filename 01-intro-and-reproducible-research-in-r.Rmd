@@ -1,4 +1,4 @@
-# Неделя 1\n - Воспроизводимые исследования в R
+# Неделя 1 - Воспроизводимые исследования в R
 
 ## Домашнее задание
 
@@ -105,7 +105,7 @@
 
 ### Интерактивные сайты
 
-Галлерея приложений, нарисанных на R + Shiny: [https://shiny.rstudio.com/gallery/](https://shiny.rstudio.com/gallery/){target="_blank"}
+Галерея приложений, написанных на R + Shiny: [https://shiny.rstudio.com/gallery/](https://shiny.rstudio.com/gallery/){target="_blank"}
 
 ### Сайты-портфолио
 
