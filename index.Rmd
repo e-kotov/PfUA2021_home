@@ -1,5 +1,5 @@
 ---
-title: 'Домашняя страница курса\n\"Программирование для анализа городских данных 2021\"'
+title: 'Домашняя страница курса "Программирование для анализа городских данных 2021"'
 author: '[Егор Котов, старший преподаватель, научный сотрудник НИУ ВШЭ](https://www.hse.ru/staff/ekotov){target="_blank"}; <br>[Юрий Кульчицкий, преподаватель, аналитик НИУ ВШЭ](https://www.hse.ru/staff/kulchitsky){target="_blank"}'
 site: bookdown::bookdown_site
 documentclass: book
