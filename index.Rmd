@@ -14,10 +14,12 @@ output:
 
 - [Анонимная форма для вопросов по курсу и выражения мнения](https://forms.office.com/r/EWcUi13QCN){target="_blank"}
 
+- [Как загрузить и отправить выполненное задание в MS Teams](https://web.microsoftstream.com/video/33ce9c95-3c53-4f9d-aa0c-3d9d2342e055){target="_blank"}
+
 - [Канал с видеозаписями курса](https://web.microsoftstream.com/channel/76d212d2-0d47-461a-9295-741f7093f14e){target="_blank"}
 
 - 
-[Ссылка для регистрации в корпоративной группе DataCamp для доступа к мини-курсам](https://www.datacamp.com/groups/shared_links/968773c87ad5b5ba478379e274717c8247e48cc39a4d06704d8bdbcd2babf700){target="_blank"}
+[Ссылка для регистрации в корпоративной группе DataCamp для доступа к мини-курсам](https://www.datacamp.com/groups/shared_links/968773c87ad5b5ba478379e274717c8247e48cc39a4d06704d8bdbcd2babf700){target="_blank"} - зарегистрируйте аккаунт со своей студенческой почтой на `@edu.hse.ru`
 
 ## Установка R
 
