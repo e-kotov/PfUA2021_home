@@ -10,9 +10,14 @@ output:
 
 # Главная
 
-[Страница курса на сайте ВШЭ](https://www.hse.ru/edu/courses/450799729){target="_blank"}
+- [Страница курса на сайте ВШЭ](https://www.hse.ru/edu/courses/450799729){target="_blank"}
 
-[Канал с видеозаписями курса](https://web.microsoftstream.com/channel/76d212d2-0d47-461a-9295-741f7093f14e){target="_blank"}
+- [Анонимная форма для вопросов по курсу и выражения мнения](https://forms.office.com/r/EWcUi13QCN){target="_blank"}
+
+- [Канал с видеозаписями курса](https://web.microsoftstream.com/channel/76d212d2-0d47-461a-9295-741f7093f14e){target="_blank"}
+
+- 
+[Ссылка для регистрации в корпоративной группе DataCamp для доступа к мини-курсам](https://www.datacamp.com/groups/shared_links/968773c87ad5b5ba478379e274717c8247e48cc39a4d06704d8bdbcd2babf700){target="_blank"}
 
 ## Установка R
 

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 Неделя 1- Воспроизводимые исследования в R | Домашняя страница курса&quot;Программирование для анализа городских данных 2021&quot;</title>
+  <meta name="description" content="Домашняя страница курса"Программирование для анализа городских данных 2021"" />
+  <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 Неделя 1- Воспроизводимые исследования в R | Домашняя страница курса&quot;Программирование для анализа городских данных 2021&quot;" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 Неделя 1- Воспроизводимые исследования в R | Домашняя страница курса&quot;Программирование для анализа городских данных 2021&quot;" />
+  
+  
+  
+
+<meta name="author" content="Егор Котов, старший преподаватель, научный сотрудник НИУ ВШЭ" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Главная</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#установка-r"><i class="fa fa-check"></i><b>1.1</b> Установка R</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#где-скачать-r-rstudio"><i class="fa fa-check"></i><b>1.2</b> Где скачать R + RStudio</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#настройка-rstudio"><i class="fa fa-check"></i><b>1.3</b> Настройка RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html"><i class="fa fa-check"></i><b>2</b> Неделя 1- Воспроизводимые исследования в R</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#домашнее-задание"><i class="fa fa-check"></i><b>2.1</b> Домашнее задание</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#пройдите-вводный-мини-курс-на-datacamp"><i class="fa fa-check"></i><b>2.1.1</b> Пройдите вводный мини-курс на DataCamp</a></li>
+<li class="chapter" data-level="2.1.2" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#лабораторная-в-r"><i class="fa fa-check"></i><b>2.1.2</b> Лабораторная в R</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#лекция"><i class="fa fa-check"></i><b>2.2</b> Лекция</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#общая-информация-о-курсе-и-система-оценки"><i class="fa fa-check"></i><b>2.2.1</b> Общая информация о курсе и система оценки</a></li>
+<li class="chapter" data-level="2.2.2" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#воспроизводимые-исследования"><i class="fa fa-check"></i><b>2.2.2</b> Воспроизводимые исследования</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#лабораторная"><i class="fa fa-check"></i><b>2.3</b> Лабораторная</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#воспроизводимые-исследования-в-r"><i class="fa fa-check"></i><b>2.3.1</b> Воспроизводимые исследования в R</a></li>
+<li class="chapter" data-level="2.3.2" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#демо-первых-запусков-скриптов-в-лабораторной"><i class="fa fa-check"></i><b>2.3.2</b> Демо первых запусков скриптов в лабораторной</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#дополнительные-ссылки-из-лекции-и-семинаров---способы-использования-r"><i class="fa fa-check"></i><b>2.4</b> Дополнительные ссылки из лекции и семинаров - способы использования R</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#интерактивные-карты"><i class="fa fa-check"></i><b>2.4.1</b> Интерактивные карты</a></li>
+<li class="chapter" data-level="2.4.2" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#статьи-в-научных-журналах"><i class="fa fa-check"></i><b>2.4.2</b> Статьи в научных журналах</a></li>
+<li class="chapter" data-level="2.4.3" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#книги"><i class="fa fa-check"></i><b>2.4.3</b> Книги</a></li>
+<li class="chapter" data-level="2.4.4" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#интерактивные-сайты"><i class="fa fa-check"></i><b>2.4.4</b> Интерактивные сайты</a></li>
+<li class="chapter" data-level="2.4.5" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#сайты-портфолио"><i class="fa fa-check"></i><b>2.4.5</b> Сайты-портфолио</a></li>
+<li class="chapter" data-level="2.4.6" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#статические-веб-сайты-с-документацией-по-пакетам-r"><i class="fa fa-check"></i><b>2.4.6</b> Статические веб-сайты с документацией по пакетам R</a></li>
+<li class="chapter" data-level="2.4.7" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#редактор-markdown"><i class="fa fa-check"></i><b>2.4.7</b> Редактор Markdown</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#где-писать-на-r-онлайн"><i class="fa fa-check"></i><b>2.5</b> Где писать на R онлайн</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#rstudio-cloud"><i class="fa fa-check"></i><b>2.5.1</b> Rstudio Cloud</a></li>
+<li class="chapter" data-level="2.5.2" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#kaggle"><i class="fa fa-check"></i><b>2.5.2</b> Kaggle</a></li>
+<li class="chapter" data-level="2.5.3" data-path="неделя-1--воспроизводимые-исследования-в-r.html"><a href="неделя-1--воспроизводимые-исследования-в-r.html#google-colab"><i class="fa fa-check"></i><b>2.5.3</b> Google Colab</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Домашняя страница курса"Программирование для анализа городских данных 2021"</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="неделя-1--воспроизводимые-исследования-в-r" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Неделя 1- Воспроизводимые исследования в R</h1>
+<div id="домашнее-задание" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Домашнее задание</h2>
+<div id="пройдите-вводный-мини-курс-на-datacamp" class="section level3" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Пройдите вводный мини-курс на DataCamp</h3>
+<ul>
+<li><p><a href="https://learn.datacamp.com/courses/free-introduction-to-r" target="_blank">мини-курс Introduction to R</a></p></li>
+<li><p><a href="https://www.datacamp.com/groups/shared_links/968773c87ad5b5ba478379e274717c8247e48cc39a4d06704d8bdbcd2babf700" target="_blank">Ссылка для регистрации в корпоративной группе DataCamp для доступа к мини-курсам</a></p></li>
+</ul>
+</div>
+<div id="лабораторная-в-r" class="section level3" number="2.1.2">
+<h3><span class="header-section-number">2.1.2</span> Лабораторная в R</h3>
+<p>Загрузите ваш <code>Rmd</code> файл <code>individual_lab.Rmd</code> , убедившись, что он успешно “собирается” в <code>HTML</code> файл. Если есть ошибки при “сборке”, все равно загрузите. Вы получите обратную связь и увидите, как происходит проверка домашних заданий. Оценка за эту лабораторную не идет в накопленную оценку.</p>
+</div>
+</div>
+<div id="лекция" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Лекция</h2>
+<p><strong><a href="https://eduhseru.sharepoint.com/:b:/s/2021RProgrammingforUrbanAnalytics/EYR_BgQsUKJJkSqsjojIsfoBbLxbzw0IscQPVET9AUfcjw?e=VJSwuz" target="_blank">Слайды лекции</a></strong></p>
+<div id="общая-информация-о-курсе-и-система-оценки" class="section level3" number="2.2.1">
+<h3><span class="header-section-number">2.2.1</span> Общая информация о курсе и система оценки</h3>
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/3230176c-8539-425e-b5cf-56dec5fd039e?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;">
+</iframe>
+<ul>
+<li><a href="https://web.microsoftstream.com/video/3230176c-8539-425e-b5cf-56dec5fd039e?channelId=76d212d2-0d47-461a-9295-741f7093f14e" target="_blank">Открыть видео в новом окне</a></li>
+</ul>
+</div>
+<div id="воспроизводимые-исследования" class="section level3" number="2.2.2">
+<h3><span class="header-section-number">2.2.2</span> Воспроизводимые исследования</h3>
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/09e6d582-3be9-4ff7-a0d7-665a248574bb?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;">
+</iframe>
+<ul>
+<li><a href="https://web.microsoftstream.com/video/09e6d582-3be9-4ff7-a0d7-665a248574bb?channelId=76d212d2-0d47-461a-9295-741f7093f14e" target="_blank">Открыть видео в новом окне</a></li>
+</ul>
+</div>
+</div>
+<div id="лабораторная" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Лабораторная</h2>
+<div id="воспроизводимые-исследования-в-r" class="section level3" number="2.3.1">
+<h3><span class="header-section-number">2.3.1</span> Воспроизводимые исследования в R</h3>
+<div id="файлы-для-лабораторной" class="section level4" number="2.3.1.1">
+<h4><span class="header-section-number">2.3.1.1</span> Файлы для лабораторной</h4>
+<p>Скачайте архив, распакуйте и следуйте инструкциям в видео к лабораторной, также посмотирет демонсрации первого запуска скриптов ниже.</p>
+<p><strong><a href="https://eduhseru.sharepoint.com/:u:/s/2021RProgrammingforUrbanAnalytics/Ebbh8PEUuVpKm_TlUY3yOLUB2D6Py55tWY1E5--rF0if0w?e=WH2a3L" target="_blank">Файлы для лабораторной</a></strong></p>
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/54a4a198-bb15-4d54-a04d-3fcbe0c3f03e?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;">
+</iframe>
+<ul>
+<li><a href="https://web.microsoftstream.com/video/54a4a198-bb15-4d54-a04d-3fcbe0c3f03e?channelId=76d212d2-0d47-461a-9295-741f7093f14e" target="_blank">Открыть видео в новом окне</a></li>
+</ul>
+</div>
+</div>
+<div id="демо-первых-запусков-скриптов-в-лабораторной" class="section level3" number="2.3.2">
+<h3><span class="header-section-number">2.3.2</span> Демо первых запусков скриптов в лабораторной</h3>
+<p>Посмотирте видео, чтобы понять, что нужно нажать, чтобы “собрать” из Rmd файлов HTML файлы. Во время первого запуска будут достаточно долго устанавливаться пактеты для R. После первой установки “подключение” будет занимать считанные секунды.</p>
+<div id="в-windows" class="section level4" number="2.3.2.1">
+<h4><span class="header-section-number">2.3.2.1</span> в Windows</h4>
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/a48d7d6b-88b5-4e87-850b-cd83c2da0e7a?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;">
+</iframe>
+<p><a href="https://web.microsoftstream.com/embed/video/a48d7d6b-88b5-4e87-850b-cd83c2da0e7a" target="_blank">Открыть видео в новом окне</a></p>
+</div>
+<div id="в-macos" class="section level4" number="2.3.2.2">
+<h4><span class="header-section-number">2.3.2.2</span> в macOS</h4>
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/209c41bb-e90a-4781-8f76-d46a0d899298?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;">
+</iframe>
+<p><a href="https://web.microsoftstream.com/video/209c41bb-e90a-4781-8f76-d46a0d899298?channelId=76d212d2-0d47-461a-9295-741f7093f14e" target="_blank">Открыть видео в новом окне</a></p>
+</div>
+</div>
+</div>
+<div id="дополнительные-ссылки-из-лекции-и-семинаров---способы-использования-r" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Дополнительные ссылки из лекции и семинаров - способы использования R</h2>
+<div id="интерактивные-карты" class="section level3" number="2.4.1">
+<h3><span class="header-section-number">2.4.1</span> Интерактивные карты</h3>
+<p>Сайт: <a href="https://dashboards.cbs.nl/v1/commutingNL/" target="_blank">https://dashboards.cbs.nl/v1/commutingNL/</a></p>
+<p>Исходный код для сайта: <a href="https://github.com/mtennekes/donutmaps" target="_blank">https://github.com/mtennekes/donutmaps</a></p>
+<p>Данный пример использует множество пакетов, самостоятлено написанных экспериментальных пакетов, так что просто так его запустить локально не получится. Позже в курсе поговорим о том, как когда и зачем устанавливать такие пакеты с GitHub.</p>
+</div>
+<div id="статьи-в-научных-журналах" class="section level3" number="2.4.2">
+<h3><span class="header-section-number">2.4.2</span> Статьи в научных журналах</h3>
+<p>Статья: <a href="https://link.springer.com/article/10.1007/s10489-021-02645-3" target="_blank">https://link.springer.com/article/10.1007/s10489-021-02645-3</a></p>
+<p>Код для статьи: <a href="https://github.com/fterroso/GNN-nation-wide-mob-predictor" target="_blank">https://github.com/fterroso/GNN-nation-wide-mob-predictor</a></p>
+</div>
+<div id="книги" class="section level3" number="2.4.3">
+<h3><span class="header-section-number">2.4.3</span> Книги</h3>
+<p>Книга по библиотеке ggplot2: <a href="https://ggplot2-book.org/" target="_blank">https://ggplot2-book.org/</a></p>
+<p>Книга Geocomputation with R: <a href="https://geocompr.robinlovelace.net/" target="_blank">https://geocompr.robinlovelace.net/</a></p>
+</div>
+<div id="интерактивные-сайты" class="section level3" number="2.4.4">
+<h3><span class="header-section-number">2.4.4</span> Интерактивные сайты</h3>
+<p>Галлерея приложений, нарисанных на R + Shiny: <a href="https://shiny.rstudio.com/gallery/" target="_blank">https://shiny.rstudio.com/gallery/</a></p>
+</div>
+<div id="сайты-портфолио" class="section level3" number="2.4.5">
+<h3><span class="header-section-number">2.4.5</span> Сайты-портфолио</h3>
+<p>Личный сайт автора Geocomputation with R <a href="https://www.robinlovelace.net/" target="_blank">https://www.robinlovelace.net/</a></p>
+</div>
+<div id="статические-веб-сайты-с-документацией-по-пакетам-r" class="section level3" number="2.4.6">
+<h3><span class="header-section-number">2.4.6</span> Статические веб-сайты с документацией по пакетам R</h3>
+<p>Сайт о пакете <code>sfnetworks</code> <a href="https://luukvdmeer.github.io/sfnetworks/index.html" target="_blank">https://luukvdmeer.github.io/sfnetworks/index.html</a></p>
+</div>
+<div id="редактор-markdown" class="section level3" number="2.4.7">
+<h3><span class="header-section-number">2.4.7</span> Редактор Markdown</h3>
+<p>Онлайн редактор Markdown - Dillinger: <a href="https://dillinger.io/" target="_blank">https://dillinger.io/</a></p>
+</div>
+</div>
+<div id="где-писать-на-r-онлайн" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Где писать на R онлайн</h2>
+<p>Домашние задания лучше делать на локальном компьютере, либо нужно разбираться, как загружать файлы в эти платформы. Только RStudio Cloud поддерживает Rmd формат файлов.</p>
+<div id="rstudio-cloud" class="section level3" number="2.5.1">
+<h3><span class="header-section-number">2.5.1</span> Rstudio Cloud</h3>
+<p>Только RStudio Cloud поддерживает Rmd формат файлов.</p>
+<p><a href="https://rstudio.cloud/projects" target="_blank">https://rstudio.cloud/projects</a></p>
+</div>
+<div id="kaggle" class="section level3" number="2.5.2">
+<h3><span class="header-section-number">2.5.2</span> Kaggle</h3>
+<p>У Kaggle свой формат “ноутбуков” для кода, оттуда не получится скачать Rmd файл.</p>
+<p><a href="https://www.kaggle.com/code" target="_blank">https://www.kaggle.com/code</a></p>
+</div>
+<div id="google-colab" class="section level3" number="2.5.3">
+<h3><span class="header-section-number">2.5.3</span> Google Colab</h3>
+<p>Colab поддерижвает Jupyter ноутбуки, в которых можно писать код на R.</p>
+<p><a href="https://colab.research.google.com/#create=true&amp;language=r" target="_blank">https://colab.research.google.com/#create=true&amp;language=r</a></p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "lunr",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
