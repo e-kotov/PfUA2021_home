@@ -10,24 +10,24 @@ output:
 
 # Главная
 
-[Страница курса на сайте ВШЭ](https://www.hse.ru/edu/courses/450799729)
+[Страница курса на сайте ВШЭ](https://www.hse.ru/edu/courses/450799729){target="_blank"}
 
-[Канал с видеозаписями курса](https://web.microsoftstream.com/channel/76d212d2-0d47-461a-9295-741f7093f14e)
+[Канал с видеозаписями курса](https://web.microsoftstream.com/channel/76d212d2-0d47-461a-9295-741f7093f14e){target="_blank"}
 
 ## Установка R
 
-- [Видео - как установить в macOS](https://web.microsoftstream.com/video/e9142ea1-01d6-452f-90b8-1728977fa3cf?list=studio)
+- [Видео - как установить в macOS](https://web.microsoftstream.com/video/e9142ea1-01d6-452f-90b8-1728977fa3cf?list=studio){target="_blank"}
 
-- [Видео - как установить в Windows](https://web.microsoftstream.com/video/2ff6ae6b-da85-44b1-b1d8-644032670a52?list=studio)
+- [Видео - как установить в Windows](https://web.microsoftstream.com/video/2ff6ae6b-da85-44b1-b1d8-644032670a52?list=studio){target="_blank"}
 
 ## Где скачать R + RStudio
 
-- [R и Rtools (второе только для Windows)](https://cran.r-project.org/)
+- [R и Rtools (второе только для Windows)](https://cran.r-project.org/){target="_blank"}
 
-- [RStudio](https://www.rstudio.com/products/rstudio/download/)
+- [RStudio](https://www.rstudio.com/products/rstudio/download/){target="_blank"}
 
 ## Настройка RStudio
 
-- [Оптимальная настройка `RStudio` для работы во время курса](https://web.microsoftstream.com/video/4c8b1b32-4378-402b-8c2c-7c44c55a087a?list=studio)
+- [Оптимальная настройка `RStudio` для работы во время курса](https://web.microsoftstream.com/video/4c8b1b32-4378-402b-8c2c-7c44c55a087a?list=studio){target="_blank"}
 
 <!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->

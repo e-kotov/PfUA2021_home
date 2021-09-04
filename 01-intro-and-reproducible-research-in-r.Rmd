@@ -2,13 +2,13 @@
 
 ## Лекция
 
-- [Общая информация о курсе и система оценки](https://web.microsoftstream.com/video/3230176c-8539-425e-b5cf-56dec5fd039e?channelId=76d212d2-0d47-461a-9295-741f7093f14e)
+- [Общая информация о курсе и система оценки](https://web.microsoftstream.com/video/3230176c-8539-425e-b5cf-56dec5fd039e?channelId=76d212d2-0d47-461a-9295-741f7093f14e){target="_blank"}
 
-- [Воспроизводимые исследования](https://web.microsoftstream.com/video/09e6d582-3be9-4ff7-a0d7-665a248574bb?channelId=76d212d2-0d47-461a-9295-741f7093f14e)
+- [Воспроизводимые исследования](https://web.microsoftstream.com/video/09e6d582-3be9-4ff7-a0d7-665a248574bb?channelId=76d212d2-0d47-461a-9295-741f7093f14e){target="_blank"}
 
 ## Лабораторная
 
-- [Воспроизводимые исследования в R](https://web.microsoftstream.com/video/54a4a198-bb15-4d54-a04d-3fcbe0c3f03e?channelId=76d212d2-0d47-461a-9295-741f7093f14e)
+- [Воспроизводимые исследования в R](https://web.microsoftstream.com/video/54a4a198-bb15-4d54-a04d-3fcbe0c3f03e?channelId=76d212d2-0d47-461a-9295-741f7093f14e){target="_blank"}
 
 
 
