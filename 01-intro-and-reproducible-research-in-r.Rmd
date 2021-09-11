@@ -17,11 +17,7 @@
 
 Скачайте файл лабораторной, выполните задание в файле `individual_lab_01.Rmd`. Загрузите ваш `Rmd` файл `individual_lab_01.Rmd` , убедившись, что он успешно "собирается" в `HTML` файл. Если есть ошибки при "сборке", все равно загрузите. Вы получите обратную связь и увидите, как происходит проверка домашних заданий. Оценка за эту лабораторную не идет в накопленную оценку.
 
-#### Как загрузить и отправить выполненное задание в MS Teams
-
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/33ce9c95-3c53-4f9d-aa0c-3d9d2342e055?autoplay=false&showinfo=true" allowfullscreen style="border:none;"></iframe>
-
-- [Открыть видео в новом окне](https://web.microsoftstream.com/video/33ce9c95-3c53-4f9d-aa0c-3d9d2342e055){target="_blank"}
+- [Как загрузить и отправить выполненное задание в MS Teams](https://web.microsoftstream.com/video/33ce9c95-3c53-4f9d-aa0c-3d9d2342e055){target="_blank"}
 
 ## Лекция
 

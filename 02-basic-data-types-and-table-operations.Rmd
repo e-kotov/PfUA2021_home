@@ -1,0 +1,66 @@
+# Неделя 2 - Базовые типы данных и таблицы
+
+## Видео
+
+
+- [Видео с тайм-кодами тем на Miscosoft Webstream](https://web.microsoftstream.com/video/25b15857-7304-48c6-a312-276aa20e4c6f?channelId=76d212d2-0d47-461a-9295-741f7093f14e){target="_blank"}
+
+**Под окном видео лекции используйте тайм-коды для перехода к конкретным темам демонстрации.**
+
+**[Слайды лекции в архиве с лабораторной](#%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-01---%D0%BD%D0%B0-%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D1%83)**
+
+
+## Основные понятия
+
+- Пакет / модуль (Package) - набор функций, расширяющих возможности языка. Например:
+
+  - пакет [`lubridate`](https://lubridate.tidyverse.org/){target="_blank"}, позволяющий проще манипулировать датами и временем;
+  - пакет [`dplyr`](https://dplyr.tidyverse.org/){target="_blank"}, позволяющий манипулировать таблицами при помощи слов-функций `select()`, `filter()`, `group_by()`, `summarise()`.
+
+- Вектор (`Vector`) - последовательность значений с одинаковым типом данных (текст (`character`), число (`numeric` либо `integer`), дата и/или время (`Date`, `POSIXct`), и т.д.), длиной от 1 до бесконечности
+
+- Лист/Список (`List`) - набор объектов любой длины и любых типов/классов
+
+- Таблица (`data.frame`, [`tibble`](https://tibble.tidyverse.org/){target="_blank"}, `data.table`) - особый случай списка, в котором все элементы это векторы с одинаковой длиной
+
+
+Таблицы типа `data.frame` морально устарели, рекомендуется использовать `tibble` (разобрали на этой неделе) и `data.table` (разберем позже).
+
+
+### Шпаргалки по теме
+
+
+- Манипуляция таблицами - [`dplyr`](https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf){target="_blank"}
+
+- Манипуляция датами - [`lubridate`](https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf){target="_blank"}
+
+
+
+## Домашнее задание
+
+### Пройдите 3/4 мини-курса на DataCamp
+
+до `2021-09-18 09:30`
+
+- [мини-курс Data Manipulation with dplyr](https://learn.datacamp.com/courses/data-manipulation-with-dplyr){target="_blank"}
+
+  - разделы [Transforming Data with dplyr](https://campus.datacamp.com/courses/data-manipulation-with-dplyr/transforming-data-with-dplyr?ex=1){target="_blank"}, [Aggregating Data](https://campus.datacamp.com/courses/data-manipulation-with-dplyr/aggregating-data?ex=1){target="_blank"}, [Selecting and Transforming Data](https://campus.datacamp.com/courses/data-manipulation-with-dplyr/selecting-and-transforming-data?ex=1){target="_blank"}
+
+
+*[Ссылка для регистрации в корпоративной группе DataCamp для доступа к мини-курсам](https://www.datacamp.com/groups/shared_links/968773c87ad5b5ba478379e274717c8247e48cc39a4d06704d8bdbcd2babf700){target="_blank"} - зарегистрируйте аккаунт со своей студенческой почтой на `@edu.hse.ru`*
+
+
+## Лабораторная 01 - на оценку
+
+Архив с данными лабораторной и слайдами недели 2:
+
+- [MS Teams / Sharepoint](https://eduhseru.sharepoint.com/sites/2021RProgrammingforUrbanAnalytics/Class%20Materials/Week_02/week_02.zip){target="_blank"}
+- [зеркало на Google Drive](https://drive.google.com/file/d/1zwrlt8Fb5wdMrpRO0DYHhoOhc-LKhnuW/view?usp=sharing){target="_blank"}
+
+К данному заданию стоит приступать после занятия 2021-09-18, когда мы разберем базовую работу с пространственными данными.
+
+до `2021-09-27 12:00`
+
+Скачайте файл лабораторной, выполните задание в файле `individual_lab_01_graded.Rmd`. Загрузите ваш `Rmd` файл `individual_lab_01_graded.Rmd` , убедившись, что он успешно "собирается" в `HTML` файл. Если есть ошибки при "сборке", все равно загрузите. Вы получите обратную связь и увидите, как происходит проверка домашних заданий. Оценка за эту лабораторную не идет в накопленную оценку.
+
+- [Как загрузить и отправить выполненное задание в MS Teams](https://web.microsoftstream.com/video/33ce9c95-3c53-4f9d-aa0c-3d9d2342e055){target="_blank"}
