@@ -54,6 +54,9 @@ site: bookdown::bookdown_site
 
 - [Работа с RStudio](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf){target="_blank"}
 
+- Манипуляция таблицами с пространственными данными - [`sf`](https://github.com/rstudio/cheatsheets/blob/master/sf.pdf){target="_blank"}
+
+
 - [Больше шпаргалок по всем темам...](https://www.rstudio.com/resources/cheatsheets/){target="_blank"}
 
 <!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->

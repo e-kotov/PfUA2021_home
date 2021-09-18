@@ -1,0 +1,28 @@
+# Визуализация данных
+
+
+## Лекция
+
+**[Слайды лекции](https://eduhseru.sharepoint.com/sites/2021RProgrammingforUrbanAnalytics/Class%20Materials/03_data_vis/03_data_vis.pdf){target="_blank"}**
+
+<iframe width="100%" height="300px" src="https://web.microsoftstream.com/embed/video/bd393c88-5ab3-42c1-840f-903696558d93?autoplay=false&showinfo=true" allowfullscreen style="border:none;"></iframe>
+
+
+- [Открыть видео в новом окне](https://web.microsoftstream.com/video/bd393c88-5ab3-42c1-840f-903696558d93){target="_blank"}
+
+## Рекомендованная литература
+
+### Теория
+
+- [Nussbaumer, KC 2015, Storytelling with Data : A Data Visualization Guide for Business Professionals, John Wiley & Sons, Incorporated, Hoboken. (доступно через электронные ресурсы библиотеки ВШЭ)](https://ebookcentral.proquest.com/lib/hselibrary-ebooks/detail.action?docID=4187267){target="_blank"}
+
+- [Nussbaumer, KC 2020, Storytelling with Data: Let's Practice!, John Wiley & Sons, Incorporated, Hoboken. (доступно через электронные ресурсы библиотеки ВШЭ)](https://library-books24x7-com.proxylibrary.hse.ru/toc.aspx?bookid=151000){target="_blank"}
+
+- [Yau, N 2013, Data Points : Visualization That Means Something, John Wiley & Sons, Incorporated, Somerset. (доступно через электронные ресурсы библиотеки ВШЭ)](https://ebookcentral.proquest.com/lib/hselibrary-ebooks/detail.action?docID=1158630){target="_blank"}
+
+### Практика
+
+- [Wickham, H., 2009-2021. Ggplot2: elegant graphics for data analysis, Use R! Springer, New York.](https://ggplot2-book.org){target="_blank"}
+
+
+

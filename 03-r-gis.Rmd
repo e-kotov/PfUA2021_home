@@ -1,0 +1,33 @@
+# Пространственые данные в R (vs QGIS)
+
+## Видео
+
+
+- [Видео с тайм-кодами тем на Miscosoft Webstream](https://web.microsoftstream.com/video/d6c65607-2d4b-43af-a0f0-0d5ce89f3dc6?channelId=76d212d2-0d47-461a-9295-741f7093f14e){target="_blank"}
+
+**Под окном видео лекции используйте тайм-коды для перехода к конкретным темам демонстрации.**
+
+**[Слайды лекции в архиве с лабораторной прошлой недели](http://127.0.0.1:6243/базовые-типы-данных-и-таблицы.html#лабораторная-01---на-оценку)**
+
+
+## Основные понятия
+
+- объект типа `sf` (simple features) - это особая форма `data.frame`, где присутствует специальным образом отформатированная колонка с геометрией для каждой строки в таблице. [Документация по библиотеке `sf`](https://r-spatial.github.io/sf/index.html){target="_blank"}
+
+- функции для загрузки пространственных данных [`st_read()` и `read_sf()`](https://r-spatial.github.io/sf/reference/st_read.html){target="_blank"}
+
+- функции [`st_crs()`](https://r-spatial.github.io/sf/reference/st_crs.html){target="_blank"} (для проверки системы координат объекта) и  [`st_transform()`](https://r-spatial.github.io/sf/reference/st_transform.html){target="_blank"} (для преобразования объекта в другую систему координат) + сайты-справочники систем координат: [https://epsg.io](https://epsg.io){target="_blank"}, [https://spatialreference.org](https://spatialreference.org){target="_blank"}
+
+- пространственное пересечение и выборка (spatial select / select by location): `имя_объекта_1[имя_объекта_2,]` позволяет выбрать все наблюдения из объекта 1, геометрия которых пересекается с наблюдениями объекта 2
+
+- построение буферных зон при помощи фукнции [`st_buffer()`](https://r-spatial.github.io/sf/reference/st_buffer.html){target="_blank"}
+
+
+- пространственная агрегация (spatial join / join by location) с подсчетом статистик (сумма, макс, мин, среднее, и т.д.): [`aggregate()`](https://r-spatial.github.io/sf/reference/aggregate.sf.html){target="_blank"}
+
+- функции для экспорта пространственных данных [`st_write()` и `write_sf()`](https://r-spatial.github.io/sf/reference/st_write.html){target="_blank"}
+
+
+### Шпаргалки по теме
+
+- Манипуляция таблицами с пространственными данными - [`sf`](https://github.com/rstudio/cheatsheets/blob/master/sf.pdf){target="_blank"}
