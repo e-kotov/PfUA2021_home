@@ -20,9 +20,43 @@
 
 - [Yau, N 2013, Data Points : Visualization That Means Something, John Wiley & Sons, Incorporated, Somerset. (доступно через электронные ресурсы библиотеки ВШЭ)](https://ebookcentral.proquest.com/lib/hselibrary-ebooks/detail.action?docID=1158630){target="_blank"}
 
+
 ### Практика
 
 - [Wickham, H., 2009-2021. Ggplot2: elegant graphics for data analysis, Use R! Springer, New York.](https://ggplot2-book.org){target="_blank"}
 
 
+
+## Лабораторная - Видео
+
+
+- [Видео с тайм-кодами тем на Miscosoft Webstream](https://web.microsoftstream.com/video/b1fff153-16dc-4743-8d6a-c46deeda49cd?channelId=76d212d2-0d47-461a-9295-741f7093f14e){target="_blank"}
+
+**Под окном видео лекции используйте тайм-коды для перехода к конкретным темам демонстрации.**
+
+
+
+## Домашнее задание
+
+### Пройдите главы мини-курса на DataCamp
+
+до `2021-10-02 09:30`
+
+Вы можете пройти все главы, или только те, которые вызывают больше вопросов
+
+- [мини-курс Introduction to Data Visualization with ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2){target="_blank"}
+
+  - разделы [Intro to ggplot2](https://campus.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2/introduction-b4b7f9b2-ec8d-49a0-b2a9-9abd707dd710?ex=1){target="_blank"}, [Plot Aesthetics](https://campus.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2/aesthetics?ex=1){target="_blank"}, [Plot Geometries](https://campus.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2/geometries?ex=1){target="_blank"}, [Plot Themes](https://campus.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2/themes?ex=1){target="_blank"}
+
+
+*[Ссылка для регистрации в корпоративной группе DataCamp для доступа к мини-курсам](https://www.datacamp.com/groups/shared_links/968773c87ad5b5ba478379e274717c8247e48cc39a4d06704d8bdbcd2babf700){target="_blank"} - зарегистрируйте аккаунт со своей студенческой почтой на `@edu.hse.ru`*
+
+## Шпаргалка по ggplot2
+
+- [`ggplot2`](https://github.com/rstudio/cheatsheets/raw/master/data-visualization.pdf){target="_blank"}
+
+
+## Лабораторная 02 - на оценку
+
+скоро появится тут...
 
