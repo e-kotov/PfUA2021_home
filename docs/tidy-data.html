@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>4 Базовые типы данных и таблицы | Домашняя страница курса “Программирование для анализа городских данных 2021”</title>
-  <meta name="description" content="4 Базовые типы данных и таблицы | Домашняя страница курса “Программирование для анализа городских данных 2021”" />
+  <title>7 Tidy Data | Домашняя страница курса “Программирование для анализа городских данных 2021”</title>
+  <meta name="description" content="7 Tidy Data | Домашняя страница курса “Программирование для анализа городских данных 2021”" />
   <meta name="generator" content="bookdown 0.23 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="4 Базовые типы данных и таблицы | Домашняя страница курса “Программирование для анализа городских данных 2021”" />
+  <meta property="og:title" content="7 Tidy Data | Домашняя страница курса “Программирование для анализа городских данных 2021”" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="4 Базовые типы данных и таблицы | Домашняя страница курса “Программирование для анализа городских данных 2021”" />
+  <meta name="twitter:title" content="7 Tidy Data | Домашняя страница курса “Программирование для анализа городских данных 2021”" />
   
   
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="воспроизводимые-исследования-в-r.html"/>
-<link rel="next" href="пространственые-данные-в-r-vs-qgis.html"/>
+<link rel="prev" href="визуализация-данных.html"/>
+
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -194,65 +194,36 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="базовые-типы-данных-и-таблицы" class="section level1" number="4">
-<h1><span class="header-section-number">4</span> Базовые типы данных и таблицы</h1>
-<div id="видео" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> Видео</h2>
+<div id="tidy-data" class="section level1" number="7">
+<h1><span class="header-section-number">7</span> Tidy Data</h1>
+<div id="часть-1---лабораторная---видео" class="section level2" number="7.1">
+<h2><span class="header-section-number">7.1</span> Часть 1 - Лабораторная - Видео</h2>
+<p>Форма tidy data и регулярные выражения. Разбор кейсов.</p>
+<iframe width="100%" height="300px" src="https://web.microsoftstream.com/embed/video/a83a943f-2a6d-4758-b915-ca93fd576bf6?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;">
+</iframe>
 <ul>
-<li><a href="https://web.microsoftstream.com/video/25b15857-7304-48c6-a312-276aa20e4c6f?channelId=76d212d2-0d47-461a-9295-741f7093f14e" target="_blank">Видео с тайм-кодами тем на Miscosoft Webstream</a></li>
+<li><a href="https://web.microsoftstream.com/video/a83a943f-2a6d-4758-b915-ca93fd576bf6" target="_blank">Открыть видео в новом окне</a></li>
 </ul>
-<p><strong>Под окном видео лекции используйте тайм-коды для перехода к конкретным темам демонстрации.</strong></p>
-<p><strong><a href="#%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-01---%D0%BD%D0%B0-%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D1%83">Слайды лекции в архиве с лабораторной</a></strong></p>
+<iframe width="100%" height="300px" src="https://web.microsoftstream.com/embed/video/30ea2d78-d810-4df7-9026-aa8dc16f050e?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;">
+</iframe>
+<ul>
+<li><a href="https://web.microsoftstream.com/video/30ea2d78-d810-4df7-9026-aa8dc16f050e" target="_blank">Открыть видео в новом окне</a></li>
+</ul>
 </div>
-<div id="основные-понятия" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Основные понятия</h2>
+<div id="домашнее-задание-3" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Домашнее задание</h2>
+<div id="пройдите-главы-мини-курса-на-datacamp-1" class="section level3" number="7.2.1">
+<h3><span class="header-section-number">7.2.1</span> Пройдите главы мини-курса на DataCamp</h3>
+<p>до <code>2021-10-18 12:00</code></p>
+<p>Вы можете пройти все главы, или только те, которые вызывают больше вопросов</p>
 <ul>
-<li><p>Пакет / модуль (Package) - набор функций, расширяющих возможности языка. Например:</p>
+<li><p><a href="https://learn.datacamp.com/courses/intermediate-regular-expressions-in-r" target="_blank">мини-курс Intermediate Regular Expressions in R</a></p>
 <ul>
-<li>пакет <a href="https://lubridate.tidyverse.org/" target="_blank"><code>lubridate</code></a>, позволяющий проще манипулировать датами и временем;</li>
-<li>пакет <a href="https://dplyr.tidyverse.org/" target="_blank"><code>dplyr</code></a>, позволяющий манипулировать таблицами при помощи слов-функций <code>select()</code>, <code>filter()</code>, <code>group_by()</code>, <code>summarise()</code>.</li>
+<li>разделы <a href="https://campus.datacamp.com/courses/intermediate-regular-expressions-in-r/regular-expressions-writing-custom-patterns?ex=1" target="_blank">Regular Expressions: Writing custom patterns</a>, <a href="https://campus.datacamp.com/courses/intermediate-regular-expressions-in-r/creating-strings-with-data?ex=1" target="_blank">Creating strings with data</a>, <a href="https://campus.datacamp.com/courses/intermediate-regular-expressions-in-r/extracting-structured-data-from-text?ex=1" target="_blank">Extracting structured data from text</a>, <a href="https://campus.datacamp.com/courses/intermediate-regular-expressions-in-r/similarities-between-strings?ex=1" target="_blank">Similarities between strings</a></li>
 </ul></li>
-<li><p>Вектор (<code>Vector</code>) - последовательность значений с одинаковым типом данных (текст (<code>character</code>), число (<code>numeric</code> либо <code>integer</code>), дата и/или время (<code>Date</code>, <code>POSIXct</code>), и т.д.), длиной от 1 до бесконечности</p></li>
-<li><p>Лист/Список (<code>List</code>) - набор объектов любой длины и любых типов/классов</p></li>
-<li><p>Таблица (<code>data.frame</code>, <a href="https://tibble.tidyverse.org/" target="_blank"><code>tibble</code></a>, <code>data.table</code>) - особый случай списка, в котором все элементы это векторы с одинаковой длиной</p></li>
-</ul>
-<p>Таблицы типа <code>data.frame</code> морально устарели, рекомендуется использовать <code>tibble</code> (разобрали на этой неделе) и <code>data.table</code> (разберем позже).</p>
-<div id="шпаргалки-по-теме" class="section level3" number="4.2.1">
-<h3><span class="header-section-number">4.2.1</span> Шпаргалки по теме</h3>
-<ul>
-<li><p>Манипуляция таблицами - <a href="https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf" target="_blank"><code>dplyr</code></a></p></li>
-<li><p>Манипуляция датами - <a href="https://rawgit.com/rstudio/cheatsheets/master/lubridate.pdf" target="_blank"><code>lubridate</code></a></p></li>
-</ul>
-</div>
-</div>
-<div id="домашнее-задание-1" class="section level2" number="4.3">
-<h2><span class="header-section-number">4.3</span> Домашнее задание</h2>
-<div id="пройдите-34-мини-курса-на-datacamp" class="section level3" number="4.3.1">
-<h3><span class="header-section-number">4.3.1</span> Пройдите 3/4 мини-курса на DataCamp</h3>
-<p>до <code>2021-09-18 09:30</code></p>
-<ul>
-<li><p><a href="https://learn.datacamp.com/courses/data-manipulation-with-dplyr" target="_blank">мини-курс Data Manipulation with dplyr</a></p>
-<ul>
-<li>разделы <a href="https://campus.datacamp.com/courses/data-manipulation-with-dplyr/transforming-data-with-dplyr?ex=1" target="_blank">Transforming Data with dplyr</a>, <a href="https://campus.datacamp.com/courses/data-manipulation-with-dplyr/aggregating-data?ex=1" target="_blank">Aggregating Data</a>, <a href="https://campus.datacamp.com/courses/data-manipulation-with-dplyr/selecting-and-transforming-data?ex=1" target="_blank">Selecting and Transforming Data</a></li>
-</ul></li>
-</ul>
-<p><em><a href="https://www.datacamp.com/groups/shared_links/968773c87ad5b5ba478379e274717c8247e48cc39a4d06704d8bdbcd2babf700" target="_blank">Ссылка для регистрации в корпоративной группе DataCamp для доступа к мини-курсам</a> - зарегистрируйте аккаунт со своей студенческой почтой на <code>@edu.hse.ru</code></em></p>
-</div>
-</div>
-<div id="лабораторная-01---на-оценку" class="section level2" number="4.4">
-<h2><span class="header-section-number">4.4</span> Лабораторная 01 - на оценку</h2>
-<p>Архив с данными лабораторной и слайдами недели 2:</p>
-<ul>
-<li><a href="https://eduhseru.sharepoint.com/sites/2021RProgrammingforUrbanAnalytics/Class%20Materials/Week_02/week_02.zip" target="_blank">MS Teams / Sharepoint</a></li>
-<li><a href="https://drive.google.com/file/d/1zwrlt8Fb5wdMrpRO0DYHhoOhc-LKhnuW/view?usp=sharing" target="_blank">зеркало на Google Drive</a></li>
-</ul>
-<p>К данному заданию стоит приступать после занятия 2021-09-18, когда мы разберем базовую работу с пространственными данными.</p>
-<p>до <code>2021-09-27 12:00</code></p>
-<p>Скачайте файл лабораторной, выполните задание в файле <code>individual_lab_01_graded.Rmd</code>. Загрузите ваш <code>Rmd</code> файл <code>individual_lab_01_graded.Rmd</code> , убедившись, что он успешно “собирается” в <code>HTML</code> файл. Если есть ошибки при “сборке”, все равно загрузите. Вы получите обратную связь и увидите, как происходит проверка домашних заданий. Оценка за эту лабораторную не идет в накопленную оценку.</p>
-<ul>
-<li><a href="https://web.microsoftstream.com/video/33ce9c95-3c53-4f9d-aa0c-3d9d2342e055" target="_blank">Как загрузить и отправить выполненное задание в MS Teams</a></li>
 </ul>
 
+</div>
 </div>
 </div>
             </section>
@@ -260,8 +231,8 @@
           </div>
         </div>
       </div>
-<a href="воспроизводимые-исследования-в-r.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="пространственые-данные-в-r-vs-qgis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="визуализация-данных.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

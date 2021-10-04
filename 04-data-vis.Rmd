@@ -58,5 +58,17 @@
 
 ## Лабораторная 02 - на оценку
 
-скоро появится тут...
+Архив с данными лабораторной и слайдами недели 2:
+
+- [MS Teams / Sharepoint](https://eduhseru.sharepoint.com/sites/2021RProgrammingforUrbanAnalytics/Class%20Materials/03_data_vis/week_03.zip){target="_blank"}
+- [зеркало на Google Drive](https://drive.google.com/file/d/1Ubfhlvf5BzVDHm5vIKTrnIeDQkSzdtZd/view?usp=sharing){target="_blank"}
+
+
+до `2021-10-19 23:59`
+
+Загрузите ваш `Rmd` файл `individual_lab_01_graded.Rmd` , убедившись, что он успешно "собирается" в `HTML` файл. Если есть ошибки при "сборке", все равно загрузите. Вы получите обратную связь и увидите, как происходит проверка домашних заданий. Оценка за эту лабораторную не идет в накопленную оценку.
+
+- [Как загрузить и отправить выполненное задание в MS Teams](https://web.microsoftstream.com/video/33ce9c95-3c53-4f9d-aa0c-3d9d2342e055){target="_blank"}
+
+
 

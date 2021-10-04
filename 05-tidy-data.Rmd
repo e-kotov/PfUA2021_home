@@ -1,0 +1,31 @@
+# Tidy Data
+
+## Часть 1 - Лабораторная - Видео
+
+Форма tidy data и регулярные выражения. Разбор кейсов.
+
+<iframe width="100%" height="300px" src="https://web.microsoftstream.com/embed/video/a83a943f-2a6d-4758-b915-ca93fd576bf6?autoplay=false&showinfo=true" allowfullscreen style="border:none;"></iframe>
+
+
+- [Открыть видео в новом окне](https://web.microsoftstream.com/video/a83a943f-2a6d-4758-b915-ca93fd576bf6){target="_blank"}
+
+
+<iframe width="100%" height="300px" src="https://web.microsoftstream.com/embed/video/30ea2d78-d810-4df7-9026-aa8dc16f050e?autoplay=false&showinfo=true" allowfullscreen style="border:none;"></iframe>
+
+
+- [Открыть видео в новом окне](https://web.microsoftstream.com/video/30ea2d78-d810-4df7-9026-aa8dc16f050e){target="_blank"}
+
+
+
+## Домашнее задание
+
+### Пройдите главы мини-курса на DataCamp
+
+до `2021-10-18 12:00`
+
+Вы можете пройти все главы, или только те, которые вызывают больше вопросов
+
+- [мини-курс Intermediate Regular Expressions in R](https://learn.datacamp.com/courses/intermediate-regular-expressions-in-r){target="_blank"}
+
+  - разделы [Regular Expressions: Writing custom patterns](https://campus.datacamp.com/courses/intermediate-regular-expressions-in-r/regular-expressions-writing-custom-patterns?ex=1){target="_blank"}, [Creating strings with data](https://campus.datacamp.com/courses/intermediate-regular-expressions-in-r/creating-strings-with-data?ex=1){target="_blank"}, [Extracting structured data from text
+](https://campus.datacamp.com/courses/intermediate-regular-expressions-in-r/extracting-structured-data-from-text?ex=1){target="_blank"}, [Similarities between strings](https://campus.datacamp.com/courses/intermediate-regular-expressions-in-r/similarities-between-strings?ex=1){target="_blank"}
